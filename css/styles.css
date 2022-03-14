@@ -6,11 +6,23 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #223719;
-	background-color: #6CF5A0;
+	font-family: 'Work Sans', sans-serif;
+	color: #003300
 }
 
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: white
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+h6 { 
+	font-family: 'Work Sans', sans-serif;
+	color: white
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
@@ -28,7 +40,7 @@ body {
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "*";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,8 +48,9 @@ body {
 }
 
 .biography-details li::before {
-	color: #6CF5A0;
+	color: white;
 }
+
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
@@ -57,3 +70,12 @@ body {
 .border-2 { 
 	border-color: black !important
 }
+
+a:link {
+	color: darkred
+}
+
+a:visited {
+	color: brown
+}
+
