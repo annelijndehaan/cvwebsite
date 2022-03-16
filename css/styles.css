@@ -12,7 +12,8 @@ body {
 
 h1 {
 	font-family: 'Playfair Display', serif;
-	color: white
+	color: white ;
+	text-shadow: 3px 3px #003300;	
 }
 
 h2 {
