@@ -1,7 +1,8 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+
 /* Styles for the body */
 
 body {
@@ -9,20 +10,6 @@ body {
 	color: #003300
 }
 
-h1 {
-	font-family: 'Playfair Display', serif;
-	color: white ;
-	text-shadow: 3px 3px #003300;	
-}
-
-h2 {
-	font-family: 'Playfair Display', serif;
-}
-
-h6 { 
-	font-family: 'Work Sans', sans-serif;
-	color: white
-}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
